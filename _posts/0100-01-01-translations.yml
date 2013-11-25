@@ -1,0 +1,48 @@
+---
+en:
+    site:
+        name: 'Swedish API License'
+        slogan: '{"legal": true, "commercial": true}'
+    menu:
+        home: 'Home'
+        english: 'English'
+        swedish: 'Svenska'
+        about: 'About'
+        documentation: 'Documentation'
+        github: 'GitHub'
+        contact: 'Contact'
+        license: 'The License'
+        guide: 'Get Started'
+        limitations: 'Limitations of the License'
+        conditions: 'Terms & Conditions'
+        legal_options: 'Legal Options'
+        business_options: 'Commercial Options'
+        project: 'About the Project'
+        logotypes: 'Logotypes'
+        attachments: 'Instructions for Policies'
+        choices: 'Quick Choices'
+se:
+    site:
+        name: 'Svensk API-licens'
+        slogan: '{"juridik": true, "affärsmässig": true}' 
+    menu:
+        home: 'Hem'
+        english: 'English'
+        swedish: 'Svenska'
+        about: 'Om'
+        documentation: 'Dokumentation'
+        github: 'GitHub'
+        contact: 'Kontakta'
+        license: 'Licensen'
+        guide: 'Kom igång'
+        limitations: 'Begränsningar'
+        conditions: 'Villkor för licensen'
+        legal_options: 'Rättsliga överväganden' 
+        business_options: 'Affärsmässiga vägval'
+        project: 'Om projektet'
+        logotypes: 'Logotyper'
+        attachments: 'Instruktioner för bilagor'
+        choices: 'Snabba vägval'
+tags: translations
+published: true
+---

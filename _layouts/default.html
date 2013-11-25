@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        {% assign t = site.tags.translations[0] %}
+        {% assign url_lang = '' %}        
+        {% if page.lang == 'en' %}{% assign url_lang = 'en/'%}{% endif %}
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>{{ page.title }}</title>
+        <meta name="viewport" content="width=device-width">
+
+        <link rel="stylesheet" href="/css/syntax.css">
+        <link rel="stylesheet" href="/css/bootstrap.css">
+
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+        <script type="text/javascript" src="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+      <div class="container">
+
+        <!-- Header -->
+        <div class="masthead">        
+          <div class="row">
+            <div class="col-md-3">
+              {% if page.lang == 'se' %} 
+                <h2 class="logo">
+                  <a href="/">
+                    <img src="/img/logo_{{page.lang}}.png" alt="{{ page.title }}" class="img-responsive">
+                  </a>
+                </h2>
+                <h5 class="clearfix">                                  
+                      <a href="/en">{{t.en.site.name}}</a>                      
+                </h5>
+              {% else %}
+                <h2 class="logo">
+                  <a href="/en">
+                    <img src="/img/logo_{{page.lang}}.png" alt="{{ page.title }}" class="img-responsive">
+                  </a>
+                </h2>
+                <h5 class="clearfix">                                  
+                      <a href="/">{{t.se.site.name}}</a>                      
+                </h5>
+              {% endif %}                
+            </div>
+              <div class="col-md-9">
+                <h3 class="text-muted text-right">{{t.[page.lang].site.slogan}}</h3>
+                <!-- nav-->
+                <div class="navbar navbar-default" id="menu" role="navigation">
+                   <div class="navbar-header">
+                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                       <span class="icon-bar"></span>
+                       <span class="icon-bar"></span>
+                       <span class="icon-bar"></span>
+                     </button>                    
+                   </div>
+                   <div class="navbar-collapse collapse">
+                     <ul class="nav navbar-nav">
+                       <li class="active"><a href="/{{url_lang}}">{{t.[page.lang].menu.home}}</a></li>                                          
+                       <li class="dropdown" id="menu_documentation">
+                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">{{t.[page.lang].menu.documentation}} <b class="caret"></b></a>
+                         <ul class="dropdown-menu">
+                           <li id="menu_guide"><a href="/{{url_lang}}dokumentation/komigang">{{t.[page.lang].menu.guide}}</a></li>
+                           <li id="menu_choices"><a href="/{{url_lang}}dokumentation/vagval">{{t.[page.lang].menu.choices}}</a></li>
+                           <li id="menu_license"><a href="/{{url_lang}}dokumentation/licens">{{t.[page.lang].menu.license}}</a></li>
+                           <li id="menu_limitations"><a href="/{{url_lang}}dokumentation/begransningar">{{t.[page.lang].menu.limitations}}</a></li>
+                           <li id="menu_conditions"><a href="/{{url_lang}}dokumentation/villkor">{{t.[page.lang].menu.conditions}}</a></li>
+                           <li id="menu_legaloptions"><a href="/{{url_lang}}dokumentation/rattsligaval">{{t.[page.lang].menu.legal_options}}</a></li>
+                           <li id="menu_businessoptions"><a href="/{{url_lang}}dokumentation/affarsval">{{t.[page.lang].menu.business_options}}</a></li>
+                           <li id="menu_attachments"><a href="/{{url_lang}}dokumentation/bilagor">{{t.[page.lang].menu.attachments}}</a></li>
+                         </ul>
+                       </li>                         
+                       <li class="dropdown" id="menu_about">
+                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">{{t.[page.lang].menu.about}} <b class="caret"></b></a>
+                         <ul class="dropdown-menu">
+                           <li id="menu_project"><a href="/{{url_lang}}om/projektet">{{t.[page.lang].menu.project}}</a></li>
+                           <li id="menu_logotypes"><a href="/{{url_lang}}om/logotyper">{{t.[page.lang].menu.logotypes}}</a></li>
+                           <li id="menu_contact"><a href="/{{url_lang}}om/kontakta">{{t.[page.lang].menu.contact}}</a></li>
+                         </ul>
+                       </li>  
+                       <li><a href="https://github.com/APILicense" class="external">{{t.[page.lang].menu.github}}</a></li>
+                       {% if page.lang == 'se' %} 
+                          <li id="menu_language"><a href="/en">{{t.[page.lang].menu.english}}</a></li>                      
+                       {% else %}
+                          <li id="menu_language"><a href="/">{{t.[page.lang].menu.swedish}}</a></li>                      
+                       {% endif %}                                          
+                     </ul>        
+                   </div><!--/.nav-collapse -->
+                 </div><!--/.navbar navbar-default-->
+              </div>
+            </div>
+          </div>
+          <!-- /Header -->
+
+          {{ content }}
+
+          <!-- Footer -->
+          <div class="footer">
+            <p>
+              <a rel="license" href="http://creativecommons.org/licenses/by/3.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by/3.0/80x15.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 Unported License</a>.
+            </p>
+          </div>
+          <!-- /Footer -->
+
+        </div>
+        <!-- /container -->        
+
+    </body>
+</html>
