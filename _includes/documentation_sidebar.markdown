@@ -5,6 +5,7 @@
 	<h3>{{t.[page.lang].menu.documentation}}</h3>
 	<ul>
 		<li><a href="/{{url_lang}}dokumentation/komigang">{{t.[page.lang].menu.guide}}</a></li>
+		<li><a href="/{{url_lang}}dokumentation/wizard">{{t.[page.lang].menu.wizard}}</a></li>
 		<li><a href="/{{url_lang}}dokumentation/vagval">{{t.[page.lang].menu.choices}}</a></li>
 		<li><a href="/{{url_lang}}dokumentation/licens">{{t.[page.lang].menu.license}}</a></li>
 		<li><a href="/{{url_lang}}dokumentation/begransningar">{{t.[page.lang].menu.limitations}}</a></li>

@@ -10,7 +10,7 @@ Om du behöver en användarlicens för ett API så följ dessa steg...
 För att veta om licensen passar ett API så läs igenom vilka [begränsningar](/dokumentation/begransningar) och [villkor](/dokumentation/villkor) som gäller. Sammanfattningsvis så är licensen anpassad för företag som tillhandahåller webbaserade APIer och att licensen måste godkännas av alla API-användare. 
 
 ##2. Skräddarsy licensen
-Licensen är gjord för att vara flexibel nog att stämma in på väldigt många användarfall och för att veta vilka paragrafer i licensen som ska användas i ett givet fall så gå igenom [alla rättsliga och affärsmässiga vägval](/dokumentation/vagval). 
+Licensen är gjord för att vara flexibel nog att stämma in på väldigt många användarfall och för att veta vilka paragrafer i licensen som ska användas i ett givet fall så gå igenom [alla rättsliga och affärsmässiga vägval](/dokumentation/wizard). 
 
 Beroende på vilka vägval som görs så måste också lite mer information infogas i själva [licenstexten](/dokumentation/licens/), denna information är [*angiven i kursiv stil*] i licensen. Beroende på vilka val som görs så krävs också vissa [bilagor](/dokumentation/bilagor/) till licensen med ytterligare information.
 

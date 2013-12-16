@@ -12,7 +12,7 @@ To make sure that the license fits your API please read through the [Limitations
 Note that the License itself is based on Swedish Law. Nonetheless, we velieve all supporting documentation (such as the [Legal](/en/dokumentation/rattsligaval) and [Commercial Options](/en/dokumentation/affarsval)) should be of value to anyone writing an API License.
 
 ##2. Customize the License
-The License is designed to be flexible enough to fit many different use cases. To determine which paragraphs in the License that should be used in a particular case please go through all the possible [legal and commercial options](/en/dokumentation/vagval). 
+The License is designed to be flexible enough to fit many different use cases. To determine which paragraphs in the License that should be used in a particular case please go through all the possible [legal and commercial options](/en/dokumentation/wizard). 
 
 Depending on which options that are chosen there might be a need for additional information to be inserted into the [License itself](/dokumentation/licens/). Such information is [*written in italics*] in the body of the License. Based on the choices made there might also be a need for additional [policy documents](/en/dokumenation/bilagor/) containing additional custom information.
 

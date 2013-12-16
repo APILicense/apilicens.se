@@ -21,6 +21,7 @@ en:
         logotypes: 'Logotypes'
         attachments: 'Instructions for Policies'
         choices: 'Quick Choices'
+        wizard: 'License Wizard'
 se:
     site:
         name: 'Svensk API-licens'
@@ -43,6 +44,7 @@ se:
         logotypes: 'Logotyper'
         attachments: 'Instruktioner för bilagor'
         choices: 'Snabba vägval'
+        wizard: 'Skräddarsy licensen'
 tags: translations
 published: true
 ---
