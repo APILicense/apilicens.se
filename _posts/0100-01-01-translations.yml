@@ -22,6 +22,7 @@ en:
         attachments: 'Instructions for Policies'
         choices: 'Quick Choices'
         wizard: 'License Wizard'
+        press: 'Written about the License'
 se:
     site:
         name: 'Svensk API-licens'
@@ -45,6 +46,7 @@ se:
         attachments: 'Instruktioner för bilagor'
         choices: 'Snabba vägval'
         wizard: 'Skräddarsy licensen'
+        press: 'Skrivet om licensen'
 tags: translations
 published: true
 ---
