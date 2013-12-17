@@ -73,7 +73,7 @@ date:  2013-12-16 12:39:00
       <div class="tab-pane" id="tab3">
         <h3>4. Skydd för personuppgifter</h3>
         <p>Kommer API-användaren att behöva registrera vissa av sina personuppgifter (t.ex. epost-adress eller namn) för att få ta del av API:et? </p>
-        <p><a href="http://apilicens.se/dokumentation/rattsligaval/#pul" class="ext">Läs mer om skydd av personuppfigter</a>.</p>
+        <p><a href="http://apilicens.se/dokumentation/rattsligaval/#pul" class="ext">Läs mer om skydd av personuppgifter</a>.</p>
         <p>
           <label>
             <input type="radio" name="4" value="y" id="4_0">
