@@ -6,7 +6,7 @@
         {% if page.lang == 'en' %}{% assign url_lang = 'en/'%}{% endif %}
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>{{ page.title }}</title>
+        <title>{{ page.title }}{% if page.url !='/' and page.url != "/en/" %} - {{t.[page.lang].site.name}}{% endif %}</title>
         <meta name="viewport" content="width=device-width">
 
         <link rel="stylesheet" href="/css/syntax.css">
