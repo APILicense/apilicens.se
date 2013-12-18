@@ -8,6 +8,7 @@ This is a collection of some of the articles and blog posts written about the Sw
 
 * **[Swedish API Licensing Launch Aimed at Speeding API Time-to-Market](http://blog.programmableweb.com/2013/11/27/swedish-api-licensing-launch-aimed-at-speeding-api-time-to-market/)** - ProgrammableWeb
 * **[API Terms of Service Wizard From Swedish API License](http://apivoice.com/2013/12/16/api-terms-of-service-wizard-from-swedish-api-license/)** - API Voice 
+* **[The Swedish API License](http://apiux.com/2013/12/17/swedish-api-license/)** - APIUX
 * **[Initiative release free API License to fit business needs and avoid common legal issues](http://swedishstartupspace.com/2013/12/12/initiative-release-free-api-license-fit-business-needs-third-party-developer-expectations/)** - Swedish Startup Space
 * **[Svensk API-licens - gratis användaravtal för alla som publicerar APIer](http://www.mashup.se/nyheter/svensk-api-licens-gratis-anvandaravtal-for-alla-som-publicerar-apier)** - Mashup.se (in Swedish)
 
